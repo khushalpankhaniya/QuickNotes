@@ -13,10 +13,12 @@ const taskSlice = createSlice({
     },
 
     reducers: {
+        // store all task from databse to taskState
         setTasks: (state, action) => {
             state.tasks = action.payload;
         },
 
+        // new task  add 
         createTask: (state, action) => {
             state.tasks = [...state.tasks, action.payload];
         },

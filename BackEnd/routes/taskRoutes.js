@@ -25,6 +25,15 @@ router.post("/tasks", async (req, res) => {
     }
 });
 
+router.delete("/tasks/deleteAll", async (req, res) => {
+    try {
+        const result = await Table.deleteMany({});
+        res.json({ message: "All tasks deleted successfully" });
+    } catch (error) {
+        res.status(500).json({ error: "Error deleting tasks", details: error.message });
+    }
+});
+
 router.put("/tasks/:id", async (req, res) => {
     try {
         const updatedTask = await Table.findByIdAndUpdate(req.params.id, req.body, { new: true });
@@ -44,5 +53,6 @@ router.delete("/tasks/:id", async (req, res) => {
         res.status(500).json({ error: "Error deleting task", details: error.message });
     }
 });
+
 
 export default router;
