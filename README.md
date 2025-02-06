@@ -15,7 +15,7 @@ npm install
 cd ./backend - 
 npm install
 
- Set up environment variables for backend (e.g., MongoDB connection URI, PORT).
+ Set up environment variables for backend (e.g., MongoDB connection URI **(DB_URL)**, **PORT**).
 
 # Run both the frontend and backend:
 
