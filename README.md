@@ -1,6 +1,6 @@
 # QuickNotes
 
-QuickNotes is a web application built with **React**, **TypeScript**, **Express**, **MongoDB**, and **ReduxToolkit**. It allows users to create, read, update, and delete notes efficiently. The app is designed to offer a seamless and intuitive experience for managing notes.
+QuickNotes is a web application built with **React**, **TypeScript**, **Express**, **MongoDB**, and **ReduxToolkit**. It allows users to create, read, update, and delete notes efficiently. 
 
 ## Technologies Used:
 - **Frontend**: React, TypeScript, ReduxToolkit
