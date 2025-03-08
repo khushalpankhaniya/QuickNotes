@@ -9,10 +9,10 @@ QuickNotes is a web application built with **React**, **TypeScript**, **Express*
 
 # Install dependencies for both the frontend and backend:
 
-cd ./frontend - 
+cd ./FrontEnd - 
 npm install
 
-cd ./backend - 
+cd ./BackEnd - 
 npm install
 
  Set up environment variables for backend (e.g., MongoDB connection URI **(DB_URL)**, **PORT**).
